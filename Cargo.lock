@@ -749,6 +749,7 @@ dependencies = [
  "serde",
  "toml",
  "ureq",
+ "url",
 ]
 
 [[package]]

@@ -1,4 +1,5 @@
 mod config;
+mod feed;
 
 use config::Config;
 use std::error::Error;
@@ -14,11 +15,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     for stream in &config.streams {
-        println!("{}", stream.name);
-        println!("{}", stream.host);
-        println!("{}", stream.port);
-        println!("{}", stream.path);
-        println!("{}", stream.token_env_key);
+        // parser un stream en Feed.
     }
 
     Ok(())

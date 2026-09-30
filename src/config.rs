@@ -2,12 +2,15 @@ use serde::Deserialize;
 use std::fs;
 
 #[derive(Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
 pub struct Stream {
     pub name: String,
     pub host: String,
-    pub port: u16,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub port: Option<u16>,
     pub path: String,
-    pub token_env_key: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub token_env_key: Option<String>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -32,13 +35,13 @@ mod tests {
     use super::*;
 
     #[test]
-    fn load_missing_file() {
+    fn test_should_fail_loading_missing_file() {
         let err = load("/nonexistent/config.toml").unwrap_err();
         assert!(err.to_string().contains("Fail to load"));
     }
 
     #[test]
-    fn test_should_succeed_empty_field() {
+    fn test_should_succeed_empty_config() {
         let toml = "";
         let config: Config = parse_config(toml).unwrap();
         assert!(config.streams.is_empty());
@@ -53,7 +56,7 @@ mod tests {
         "#;
         let err = parse_config(toml).unwrap_err();
         assert!(err.to_string().contains("Fail to parse config file"));
-        assert!(err.to_string().contains("missing field `port`"));
+        assert!(err.to_string().contains("missing field `path`"));
     }
 
     #[test]
@@ -62,7 +65,6 @@ mod tests {
             titi = "tata"
         "#;
         let err = parse_config(toml).unwrap_err();
-        println!("{err}");
         assert!(err.to_string().contains("Fail to parse config file"));
         assert!(err.to_string().contains("unknown field `titi`"));
     }

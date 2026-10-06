@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<title>PUECH Paul activity</title>
+<link href="https://innersource.soprasteria.com/paul.puech2.atom" rel="self" type="application/atom+xml"/>
+<link href="https://innersource.soprasteria.com/paul.puech2" rel="alternate" type="text/html"/>
+<id>https://innersource.soprasteria.com/paul.puech2</id>
+<updated>2026-10-06T08:48:51Z</updated>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47555801</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/airflow-dags/-/commit/ef59ec5ce0ff8107e5b2ddd207ab94d559649558"/>
+  <title>PUECH Paul pushed to project branch feat/ajout-composants-cdr-outil-de-requetage at siv / infrastructures / airflow-dags</title>
+  <updated>2026-10-06T08:48:51Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/airflow-dags/-/commit/ef59ec5ce0ff8107e5b2ddd207ab94d559649558">(ef59ec5c)</a>
+<i>
+at
+06 Oct 08:48
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="adhesive bandage" data-name="adhesive_bandage" data-unicode-version="12.0">🩹</gl-emoji> Fix image name</p></div>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47555706</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commits/chore/fine-tuning-dev-airflow"/>
+  <title>PUECH Paul deleted project branch chore/fine-tuning-dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T08:46:08Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commits/chore/fine-tuning-dev-airflow">(e33a2345)</a>
+<i>
+at
+06 Oct 08:46
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47555705</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/ce369123ed6f2bb2d5e337acb168d1ab4bc8a27c...430039f6f60bd46211e5f0fb068379e6d6908dd4"/>
+  <title>PUECH Paul pushed to project branch main at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T08:46:06Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/ce369123ed6f2bb2d5e337acb168d1ab4bc8a27c...430039f6f60bd46211e5f0fb068379e6d6908dd4">(430039f6)</a>
+<i>
+at
+06 Oct 08:46
+</i>
+</p>
+<div class="blockquote"><p dir="auto">Merge branch 'chore/fine-tuning-dev-airflow' into 'main'</p></div>
+<p>
+<i>
+... and
+1 more commit
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47555704</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/merge_requests/4539"/>
+  <title>PUECH Paul accepted merge request !4539: ⚡ST-1768 Finetuning - dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T08:46:05Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id="user-content-optimisation-quotas-cpumémoire--dev-airflow" dir="auto">Optimisation quotas CPU/Mémoire — dev-airflow<a href="#optimisation-quotas-cpumémoire--dev-airflow" aria-label="Link to heading 'Optimisation quotas CPU/Mémoire — dev-airflow'" data-heading-content="Optimisation quotas CPU/Mémoire — dev-airflow" class="anchor"></a></h1>&#x000A;<p dir="auto"><strong>Source</strong> : <code>scripts/quotas-audit/dev-airflow-202610021820.audit</code>&#x000A;<strong>Fenêtre d'analyse</strong> : 5 jours, p95 en request, max × facteur en limit</p>&#x000A;<h2 id="user-content-résumé" dir="auto">Résumé<a href="#résumé" aria-label="Link to heading 'Résumé'" data-heading-content="Résumé" class="anchor"></a></h2>&#x000A;<table dir="auto">&#x000A;<thead>&#x000A;<tr>&#x000A;<th>Ressource</th>&#x000A;<th>Avant</th>&#x000A;<th>Après</th>&#x000A;<th>Économie</th>&#x000A;</tr>&#x000A;</thead>&#x000A;<tbody>&#x000A;<tr>&#x000A;<td><strong>CPU requests</strong></td>&#x000A;<td>2090m</td>&#x000A;<td>810m</td>&#x000A;<td><strong>-61%</strong></td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>MEM requests</strong></td>&#x000A;<td>7196Mi</td>&#x000A;<td>4160Mi</td>&#x000A;<td><strong>-42%</strong></td>&#x000A;</tr>&#x000A;</tbody>&#x000A;</table>&#x000A;<h2 id="user-content-détails-par-workload" dir="auto">Détails par workload<a href="#détails-par-workload" aria-label="Link to heading 'Détails par workload'" data-heading-content="Détails par workload" class="anchor"></a></h2>&#x000A;<table dir="auto">&#x000A;<thead>&#x000A;<tr>&#x000A;<th>Workload</th>&#x000A;<th>CPU req (avant → après)</th>&#x000A;<th>CPU lim (avant → après)</th>&#x000A;<th>MEM req (avant → après)</th>&#x000A;<th>MEM lim (avant → après)</th>&#x000A;</tr>&#x000A;</thead>&#x000A;<tbody>&#x000A;<tr>&#x000A;<td><strong>api-server</strong></td>&#x000A;<td>1000m → 20m</td>&#x000A;<td>2000m → 270m</td>&#x000A;<td>1500Mi → 416Mi</td>&#x000A;<td>2000Mi → 544Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>dag-processor</strong></td>&#x000A;<td>700m → 340m</td>&#x000A;<td>700m → 1360m</td>&#x000A;<td>1024Mi → 608Mi</td>&#x000A;<td>1400Mi → 864Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>scheduler</strong></td>&#x000A;<td>100m → 140m</td>&#x000A;<td>400m → 880m</td>&#x000A;<td>430Mi → 224Mi</td>&#x000A;<td>500Mi → 480Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>triggerer</strong></td>&#x000A;<td>150m → 140m</td>&#x000A;<td>300m → 300m</td>&#x000A;<td>800Mi → 384Mi</td>&#x000A;<td>1024Mi → 704Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>worker</strong></td>&#x000A;<td>100m → 110m</td>&#x000A;<td>— → 310m</td>&#x000A;<td>3072Mi → 1952Mi</td>&#x000A;<td>— → 3072Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>flower</strong></td>&#x000A;<td>10m → 20m</td>&#x000A;<td>500m → 400m</td>&#x000A;<td>250Mi → 448Mi</td>&#x000A;<td>500Mi → 608Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>statsd</strong></td>&#x000A;<td>10m → 20m</td>&#x000A;<td>— → 40m</td>&#x000A;<td>100Mi → 64Mi</td>&#x000A;<td>— → 96Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>git-sync</strong> (dags)</td>&#x000A;<td>— → 20m</td>&#x000A;<td>— → 390m</td>&#x000A;<td>— → 64Mi</td>&#x000A;<td>— → 96Mi</td>&#x000A;</tr>&#x000A;</tbody>&#x000A;</table>&#x000A;<h2 id="user-content-notes" dir="auto">Notes<a href="#notes" aria-label="Link to heading 'Notes'" data-heading-content="Notes" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li><strong>flower</strong> : limite CPU relevée à 400m (au lieu de 200m intermédiaire) pour garantir un démarrage fiable — 40m était trop bas et bloquait le lancement.</li>&#x000A;<li>Les workloads sans conteneur principal (log-groomers, wait-for-migrations, cds-pong, redis) ne sont pas modifiables via les values Helm et restent aux valeurs par défaut du chart upstream.</li>&#x000A;<li>Les flags de l'audit (TERM, THR, RST) ont été pris en compte pour les ajustements.</li>&#x000A;</ul>&#x000A;<h2 id="user-content-fichier-modifié" dir="auto">Fichier modifié<a href="#fichier-modifié" aria-label="Link to heading 'Fichier modifié'" data-heading-content="Fichier modifié" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li><code>helm/values/ssg/dev/airflow/values.yaml</code></li>&#x000A;</ul>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47555700</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/0ffba4202a107a8bea2c352f649bc4de5e7f9770...e33a2345b51572bc7793d246ba6b4953e7eb7cee"/>
+  <title>PUECH Paul pushed to project branch chore/fine-tuning-dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T08:45:59Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/0ffba4202a107a8bea2c352f649bc4de5e7f9770...e33a2345b51572bc7793d246ba6b4953e7eb7cee">(e33a2345)</a>
+<i>
+at
+06 Oct 08:45
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="construction" data-name="construction" data-unicode-version="6.0">🚧</gl-emoji> template de mr</p></div>
+<p>
+<i>
+... and
+14 more commits
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47553395</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/airflow-dags/-/commit/f66a54e3e3a5229c88e9947fd6374ab3569f4a57"/>
+  <title>PUECH Paul pushed to project branch feat/ajout-composants-cdr-outil-de-requetage at siv / infrastructures / airflow-dags</title>
+  <updated>2026-10-06T07:45:19Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/airflow-dags/-/commit/f66a54e3e3a5229c88e9947fd6374ab3569f4a57">(f66a54e3)</a>
+<i>
+at
+06 Oct 07:45
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="recycling symbol" data-name="recycle" data-unicode-version="6.0">♻️</gl-emoji> Renommage dag</p></div>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47553148</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commit/0ffba4202a107a8bea2c352f649bc4de5e7f9770"/>
+  <title>PUECH Paul pushed to project branch chore/fine-tuning-dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T07:39:28Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commit/0ffba4202a107a8bea2c352f649bc4de5e7f9770">(0ffba420)</a>
+<i>
+at
+06 Oct 07:39
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="construction" data-name="construction" data-unicode-version="6.0">🚧</gl-emoji> template de mr</p></div>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47552603</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/merge_requests/4539"/>
+  <title>PUECH Paul opened merge request !4539: ⚡ST-1768 Finetuning - dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T07:21:30Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id="user-content-optimisation-quotas-cpumémoire--dev-airflow" dir="auto">Optimisation quotas CPU/Mémoire — dev-airflow<a href="#optimisation-quotas-cpumémoire--dev-airflow" aria-label="Link to heading 'Optimisation quotas CPU/Mémoire — dev-airflow'" data-heading-content="Optimisation quotas CPU/Mémoire — dev-airflow" class="anchor"></a></h1>&#x000A;<p dir="auto"><strong>Source</strong> : <code>scripts/quotas-audit/dev-airflow-202610021820.audit</code>&#x000A;<strong>Fenêtre d'analyse</strong> : 5 jours, p95 en request, max × facteur en limit</p>&#x000A;<h2 id="user-content-résumé" dir="auto">Résumé<a href="#résumé" aria-label="Link to heading 'Résumé'" data-heading-content="Résumé" class="anchor"></a></h2>&#x000A;<table dir="auto">&#x000A;<thead>&#x000A;<tr>&#x000A;<th>Ressource</th>&#x000A;<th>Avant</th>&#x000A;<th>Après</th>&#x000A;<th>Économie</th>&#x000A;</tr>&#x000A;</thead>&#x000A;<tbody>&#x000A;<tr>&#x000A;<td><strong>CPU requests</strong></td>&#x000A;<td>2090m</td>&#x000A;<td>810m</td>&#x000A;<td><strong>-61%</strong></td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>MEM requests</strong></td>&#x000A;<td>7196Mi</td>&#x000A;<td>4160Mi</td>&#x000A;<td><strong>-42%</strong></td>&#x000A;</tr>&#x000A;</tbody>&#x000A;</table>&#x000A;<h2 id="user-content-détails-par-workload" dir="auto">Détails par workload<a href="#détails-par-workload" aria-label="Link to heading 'Détails par workload'" data-heading-content="Détails par workload" class="anchor"></a></h2>&#x000A;<table dir="auto">&#x000A;<thead>&#x000A;<tr>&#x000A;<th>Workload</th>&#x000A;<th>CPU req (avant → après)</th>&#x000A;<th>CPU lim (avant → après)</th>&#x000A;<th>MEM req (avant → après)</th>&#x000A;<th>MEM lim (avant → après)</th>&#x000A;</tr>&#x000A;</thead>&#x000A;<tbody>&#x000A;<tr>&#x000A;<td><strong>api-server</strong></td>&#x000A;<td>1000m → 20m</td>&#x000A;<td>2000m → 270m</td>&#x000A;<td>1500Mi → 416Mi</td>&#x000A;<td>2000Mi → 544Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>dag-processor</strong></td>&#x000A;<td>700m → 340m</td>&#x000A;<td>700m → 1360m</td>&#x000A;<td>1024Mi → 608Mi</td>&#x000A;<td>1400Mi → 864Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>scheduler</strong></td>&#x000A;<td>100m → 140m</td>&#x000A;<td>400m → 880m</td>&#x000A;<td>430Mi → 224Mi</td>&#x000A;<td>500Mi → 480Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>triggerer</strong></td>&#x000A;<td>150m → 140m</td>&#x000A;<td>300m → 300m</td>&#x000A;<td>800Mi → 384Mi</td>&#x000A;<td>1024Mi → 704Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>worker</strong></td>&#x000A;<td>100m → 110m</td>&#x000A;<td>— → 310m</td>&#x000A;<td>3072Mi → 1952Mi</td>&#x000A;<td>— → 3072Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>flower</strong></td>&#x000A;<td>10m → 20m</td>&#x000A;<td>500m → 400m</td>&#x000A;<td>250Mi → 448Mi</td>&#x000A;<td>500Mi → 608Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>statsd</strong></td>&#x000A;<td>10m → 20m</td>&#x000A;<td>— → 40m</td>&#x000A;<td>100Mi → 64Mi</td>&#x000A;<td>— → 96Mi</td>&#x000A;</tr>&#x000A;<tr>&#x000A;<td><strong>git-sync</strong> (dags)</td>&#x000A;<td>— → 20m</td>&#x000A;<td>— → 390m</td>&#x000A;<td>— → 64Mi</td>&#x000A;<td>— → 96Mi</td>&#x000A;</tr>&#x000A;</tbody>&#x000A;</table>&#x000A;<h2 id="user-content-notes" dir="auto">Notes<a href="#notes" aria-label="Link to heading 'Notes'" data-heading-content="Notes" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li><strong>flower</strong> : limite CPU relevée à 400m (au lieu de 200m intermédiaire) pour garantir un démarrage fiable — 40m était trop bas et bloquait le lancement.</li>&#x000A;<li>Les workloads sans conteneur principal (log-groomers, wait-for-migrations, cds-pong, redis) ne sont pas modifiables via les values Helm et restent aux valeurs par défaut du chart upstream.</li>&#x000A;<li>Les flags de l'audit (TERM, THR, RST) ont été pris en compte pour les ajustements.</li>&#x000A;</ul>&#x000A;<h2 id="user-content-fichier-modifié" dir="auto">Fichier modifié<a href="#fichier-modifié" aria-label="Link to heading 'Fichier modifié'" data-heading-content="Fichier modifié" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li><code>helm/values/ssg/dev/airflow/values.yaml</code></li>&#x000A;</ul>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47551870</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/airflow-dags/-/commit/4b5b17216a842117a69240776d86b364969dd0f3"/>
+  <title>PUECH Paul pushed to project branch feat/ajout-composants-cdr-outil-de-requetage at siv / infrastructures / airflow-dags</title>
+  <updated>2026-10-06T06:53:08Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/airflow-dags/-/commit/4b5b17216a842117a69240776d86b364969dd0f3">(4b5b1721)</a>
+<i>
+at
+06 Oct 06:53
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="construction" data-name="construction" data-unicode-version="6.0">🚧</gl-emoji> Fix import python</p></div>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47551724</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commit/bf75fc56bc3afcebd4cf361f47b8d53c8171c297"/>
+  <title>PUECH Paul pushed to project branch chore/fine-tuning-dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T06:44:12Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commit/bf75fc56bc3afcebd4cf361f47b8d53c8171c297">(bf75fc56)</a>
+<i>
+at
+06 Oct 06:44
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="construction" data-name="construction" data-unicode-version="6.0">🚧</gl-emoji> test v2</p></div>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-06:47551570</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/merge_requests/4537"/>
+  <title>PUECH Paul approved merge request !4537: 🩹 Fix accès maildev env formation at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-06T06:32:13Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p dir="auto">Temps: [duree]</p>&#x000A;<p dir="auto">Effort de développement / revue / Importance</p>&#x000A;<ul class="task-list" dir="auto">&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: critique" /> critique</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: important" /> important</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: normal" /> normal</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: peu important" /> peu important</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: jetable" /> jetable</li>&#x000A;</ul>&#x000A;<h2 id="user-content-description" dir="auto">Description<a href="#description" aria-label="Link to heading 'Description'" data-heading-content="Description" class="anchor"></a></h2>&#x000A;&#x000A;<h2 id="user-content-environnements-déployés--impactés" dir="auto">Environnements déployés / impactés<a href="#environnements-déployés--impactés" aria-label="Link to heading 'Environnements déployés / impactés'" data-heading-content="Environnements déployés / impactés" class="anchor"></a></h2>&#x000A;&#x000A;<ul class="task-list" dir="auto">&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: production" /> <strong>prod</strong>uction</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: préproduction" /> <strong>préprod</strong>uction</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: Validation d'Aptitude au Bon Fonctionnement (VABF)" /> Validation d'Aptitude au Bon Fonctionnement (VABF)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: formation (MI)" /> <strong>form</strong>ation (MI)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: isoproduction (SSG)" /> <strong>isoprod</strong>uction (SSG)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: qualification (SSG)" /> <strong>qual</strong>ification (SSG)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: dev (SSG)" /> <strong>dev</strong> (SSG)</li>&#x000A;</ul>&#x000A;<h2 id="user-content-tests" dir="auto">Tests<a href="#tests" aria-label="Link to heading 'Tests'" data-heading-content="Tests" class="anchor"></a></h2>&#x000A;&#x000A;<h2 id="user-content-commits" dir="auto">Commits<a href="#commits" aria-label="Link to heading 'Commits'" data-heading-content="Commits" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li>&#x000A;<p>fix ihm kong</p>&#x000A;</li>&#x000A;<li>&#x000A;<p>activation ihm kong intranet</p>&#x000A;</li>&#x000A;<li>&#x000A;<p>test big prio</p>&#x000A;</li>&#x000A;<li>&#x000A;<p>test priority</p>&#x000A;</li>&#x000A;<li>&#x000A;<p>test strp_path false</p>&#x000A;</li>&#x000A;<li>&#x000A;<p>test config</p>&#x000A;</li>&#x000A;<li>&#x000A;<p>fix config</p>&#x000A;</li>&#x000A;</ul>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47542775</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commits/chore/fine-tuning-dev-airflow"/>
+  <title>PUECH Paul pushed new project branch chore/fine-tuning-dev-airflow at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T13:45:40Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commits/chore/fine-tuning-dev-airflow">(58875251)</a>
+<i>
+at
+05 Oct 13:45
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="construction" data-name="construction" data-unicode-version="6.0">🚧</gl-emoji> test v1</p></div>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47536197</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commits/chore/optim_scp_script"/>
+  <title>PUECH Paul deleted project branch chore/optim_scp_script at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T10:44:09Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commits/chore/optim_scp_script">(cf016f2c)</a>
+<i>
+at
+05 Oct 10:44
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47536196</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/17609cbdf98e75dbb9cfc9b63c02494e2f454813...3b2adaf0baedd948b6a20e8c98c0b34fdf162473"/>
+  <title>PUECH Paul pushed to project branch main at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T10:44:09Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/17609cbdf98e75dbb9cfc9b63c02494e2f454813...3b2adaf0baedd948b6a20e8c98c0b34fdf162473">(3b2adaf0)</a>
+<i>
+at
+05 Oct 10:44
+</i>
+</p>
+<div class="blockquote"><p dir="auto">Merge branch 'chore/optim_scp_script' into 'main'</p></div>
+<p>
+<i>
+... and
+1 more commit
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47536195</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/merge_requests/4531"/>
+  <title>PUECH Paul accepted merge request !4531: ⚡ST-1883 Optimisation script UP 2295 at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T10:44:07Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p dir="auto">Temps: [duree]</p>&#x000A;<p dir="auto">Effort de développement / revue / Importance</p>&#x000A;<ul class="task-list" dir="auto">&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: critique" /> critique</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: important" /> important</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: normal" /> normal</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: peu important" /> peu important</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: jetable" /> jetable</li>&#x000A;</ul>&#x000A;<h2 id="user-content-description" dir="auto">Description<a href="#description" aria-label="Link to heading 'Description'" data-heading-content="Description" class="anchor"></a></h2>&#x000A;&#x000A;<ul dir="auto">&#x000A;<li><strong>Multiplexing SSH</strong> vers les VMs cibles (<code>ControlMaster=auto</code>, <code>ControlPath=~/.ssh/cm-%C</code>, <code>ControlPersist=120</code>) : un seul handshake par hôte.</li>&#x000A;<li><strong>Keepalives</strong> abaissés de 60s×10 à 15s×4, pour détecter un lien mort en 1 min au lieu de 10.</li>&#x000A;<li><strong>Retry</strong> sur la récupération des leaders Patroni (<code>patronictl list</code>).</li>&#x000A;</ul>&#x000A;<h2 id="user-content-environnements-déployés--impactés" dir="auto">Environnements déployés / impactés<a href="#environnements-déployés--impactés" aria-label="Link to heading 'Environnements déployés / impactés'" data-heading-content="Environnements déployés / impactés" class="anchor"></a></h2>&#x000A;&#x000A;<ul class="task-list" dir="auto">&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: production" /> <strong>prod</strong>uction</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: préproduction" /> <strong>préprod</strong>uction</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: Validation d'Aptitude au Bon Fonctionnement (VABF)" /> Validation d'Aptitude au Bon Fonctionnement (VABF)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: formation (MI)" /> <strong>form</strong>ation (MI)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: isoproduction (SSG)" /> <strong>isoprod</strong>uction (SSG)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: qualification (SSG)" /> <strong>qual</strong>ification (SSG)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: dev (SSG)" /> <strong>dev</strong> (SSG)</li>&#x000A;</ul>&#x000A;<h2 id="user-content-tests" dir="auto">Tests<a href="#tests" aria-label="Link to heading 'Tests'" data-heading-content="Tests" class="anchor"></a></h2>&#x000A;&#x000A;<h2 id="user-content-commits" dir="auto">Commits<a href="#commits" aria-label="Link to heading 'Commits'" data-heading-content="Commits" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li>&#x000A;<p><gl-emoji title="high voltage" data-name="zap" data-unicode-version="6.0">⚡</gl-emoji> ControlPersist SSH sur VM pour résilience</p>&#x000A;</li>&#x000A;<li>&#x000A;<p><gl-emoji title="alembic" data-name="alembic" data-unicode-version="8.0">⚗️</gl-emoji> <a title="Issue in Jira issues" class="gfm gfm-issue has-tooltip" data-project="256199" data-external-issue="UP-2295" data-container="body" data-placement="top" data-reference-type="external_issue" href="https://programme-siv.atlassian.net/browse/UP-2295?atlOrigin=eyJpIjoiYjM0MTA4MzUyYTYxNDVkY2IwMzVjOGQ3ZWQ3NzMwM2QiLCJwIjoianN3LWdpdGxhYlNNLWludCJ9">UP-2295</a> Optimisation résilience des scp</p>&#x000A;</li>&#x000A;</ul>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47536191</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/d19dfcdd9772babbb7bf5efd41e32b8578452af0...cf016f2c8c6193574c9f48a0681af975cbceb2e8"/>
+  <title>PUECH Paul pushed to project branch chore/optim_scp_script at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T10:44:00Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/d19dfcdd9772babbb7bf5efd41e32b8578452af0...cf016f2c8c6193574c9f48a0681af975cbceb2e8">(cf016f2c)</a>
+<i>
+at
+05 Oct 10:44
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="high voltage" data-name="zap" data-unicode-version="6.0">⚡</gl-emoji> ControlPersist SSH sur VM pour résilience</p></div>
+<p>
+<i>
+... and
+3 more commits
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47534119</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/b934afd339ac61d651de008bb87557e685510cfd...d19dfcdd9772babbb7bf5efd41e32b8578452af0"/>
+  <title>PUECH Paul pushed to project branch chore/optim_scp_script at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T09:38:16Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/b934afd339ac61d651de008bb87557e685510cfd...d19dfcdd9772babbb7bf5efd41e32b8578452af0">(d19dfcdd)</a>
+<i>
+at
+05 Oct 09:38
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="high voltage" data-name="zap" data-unicode-version="6.0">⚡</gl-emoji> ControlPersist SSH sur VM pour résilience</p></div>
+<p>
+<i>
+... and
+2 more commits
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47532630</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/6de61b3dbcadca226bab5fd3f971100addee1616...b934afd339ac61d651de008bb87557e685510cfd"/>
+  <title>PUECH Paul pushed to project branch chore/optim_scp_script at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T08:53:11Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/compare/6de61b3dbcadca226bab5fd3f971100addee1616...b934afd339ac61d651de008bb87557e685510cfd">(b934afd3)</a>
+<i>
+at
+05 Oct 08:53
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="high voltage" data-name="zap" data-unicode-version="6.0">⚡</gl-emoji> ControlPersist SSH sur VM pour résilience</p></div>
+<p>
+<i>
+... and
+8 more commits
+</i>
+</p>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47532629</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/merge_requests/4531"/>
+  <title>PUECH Paul opened merge request !4531: ⚡ST-1883 Optimisation script UP 2295 at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T08:53:01Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p dir="auto">Temps: [duree]</p>&#x000A;<p dir="auto">Effort de développement / revue / Importance</p>&#x000A;<ul class="task-list" dir="auto">&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: critique" /> critique</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: important" /> important</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: normal" /> normal</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: peu important" /> peu important</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: jetable" /> jetable</li>&#x000A;</ul>&#x000A;<h2 id="user-content-description" dir="auto">Description<a href="#description" aria-label="Link to heading 'Description'" data-heading-content="Description" class="anchor"></a></h2>&#x000A;&#x000A;<ul dir="auto">&#x000A;<li><strong>Multiplexing SSH</strong> vers les VMs cibles (<code>ControlMaster=auto</code>, <code>ControlPath=~/.ssh/cm-%C</code>, <code>ControlPersist=120</code>) : un seul handshake par hôte.</li>&#x000A;<li><strong>Keepalives</strong> abaissés de 60s×10 à 15s×4, pour détecter un lien mort en 1 min au lieu de 10.</li>&#x000A;<li><strong>Retry</strong> sur la récupération des leaders Patroni (<code>patronictl list</code>).</li>&#x000A;</ul>&#x000A;<h2 id="user-content-environnements-déployés--impactés" dir="auto">Environnements déployés / impactés<a href="#environnements-déployés--impactés" aria-label="Link to heading 'Environnements déployés / impactés'" data-heading-content="Environnements déployés / impactés" class="anchor"></a></h2>&#x000A;&#x000A;<ul class="task-list" dir="auto">&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: production" /> <strong>prod</strong>uction</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: préproduction" /> <strong>préprod</strong>uction</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="checked" disabled="disabled" aria-label="Check option: Validation d'Aptitude au Bon Fonctionnement (VABF)" /> Validation d'Aptitude au Bon Fonctionnement (VABF)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: formation (MI)" /> <strong>form</strong>ation (MI)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: isoproduction (SSG)" /> <strong>isoprod</strong>uction (SSG)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: qualification (SSG)" /> <strong>qual</strong>ification (SSG)</li>&#x000A;<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" aria-label="Check option: dev (SSG)" /> <strong>dev</strong> (SSG)</li>&#x000A;</ul>&#x000A;<h2 id="user-content-tests" dir="auto">Tests<a href="#tests" aria-label="Link to heading 'Tests'" data-heading-content="Tests" class="anchor"></a></h2>&#x000A;&#x000A;<h2 id="user-content-commits" dir="auto">Commits<a href="#commits" aria-label="Link to heading 'Commits'" data-heading-content="Commits" class="anchor"></a></h2>&#x000A;<ul dir="auto">&#x000A;<li>&#x000A;<p><gl-emoji title="high voltage" data-name="zap" data-unicode-version="6.0">⚡</gl-emoji> ControlPersist SSH sur VM pour résilience</p>&#x000A;</li>&#x000A;<li>&#x000A;<p><gl-emoji title="alembic" data-name="alembic" data-unicode-version="8.0">⚗️</gl-emoji> <a title="Issue in Jira issues" class="gfm gfm-issue has-tooltip" data-project="256199" data-external-issue="UP-2295" data-container="body" data-placement="top" data-reference-type="external_issue" href="https://programme-siv.atlassian.net/browse/UP-2295?atlOrigin=eyJpIjoiYjM0MTA4MzUyYTYxNDVkY2IwMzVjOGQ3ZWQ3NzMwM2QiLCJwIjoianN3LWdpdGxhYlNNLWludCJ9">UP-2295</a> Optimisation résilience des scp</p>&#x000A;</li>&#x000A;</ul>
+</div>
+  </summary>
+</entry>
+<entry>
+  <id>tag:innersource.soprasteria.com,2026-10-05:47532479</id>
+  <link href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commit/6de61b3dbcadca226bab5fd3f971100addee1616"/>
+  <title>PUECH Paul pushed to project branch chore/optim_scp_script at siv / infrastructures / oc-deploy-base</title>
+  <updated>2026-10-05T08:48:41Z</updated>
+  <media:thumbnail width="40" height="40" url="https://innersource.soprasteria.com/uploads/-/system/user/avatar/815942/avatar.png"/>
+  <author>
+    <username>paul.puech2</username>
+    <name>PUECH Paul</name>
+    <email></email>
+  </author>
+  <summary type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<strong>PUECH Paul</strong>
+<a href="https://innersource.soprasteria.com/siv/infrastructures/oc-deploy-base/-/commit/6de61b3dbcadca226bab5fd3f971100addee1616">(6de61b3d)</a>
+<i>
+at
+05 Oct 08:48
+</i>
+</p>
+<div class="blockquote"><p dir="auto"><gl-emoji title="high voltage" data-name="zap" data-unicode-version="6.0">⚡</gl-emoji> ControlPersist SSH sur VM pour résilience</p></div>
+</div>
+  </summary>
+</entry>
+</feed>

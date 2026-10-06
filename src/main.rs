@@ -1,5 +1,5 @@
 mod config;
-mod feed;
+mod flux;
 
 use config::Config;
 use std::error::Error;
@@ -14,9 +14,18 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("No stream configured in config file.");
     }
 
-    for stream in &config.streams {
-        // parser un stream en Feed.
-    }
+
+    // Bloc HTTP
+    config.streams.iter().map(|s| )
+    // à partir de mes urls faire un appel http et en récupérer un xml (BORD)
+    // string -> url
+    // url to string (xml)
+
+    // Bloc flux
+
+    // convertir ce xml en flux (COEUR)
+    // prend un string, parse et renvoie Flux
+    // afficher le flux (COEUR)
 
     Ok(())
 }

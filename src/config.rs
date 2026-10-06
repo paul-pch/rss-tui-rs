@@ -1,16 +1,13 @@
 use serde::Deserialize;
-use std::fs;
+use std::error::Error;
+use std::{env, fs};
 
 #[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
 pub struct Stream {
     pub name: String,
-    pub host: String,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    pub port: Option<u16>,
-    pub path: String,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    pub token_env_key: Option<String>,
+    url: String,
+    token_key: Option<String>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -20,11 +17,23 @@ pub struct Config {
     pub streams: Vec<Stream>,
 }
 
-fn parse_config(content: &str) -> Result<Config, Box<dyn std::error::Error>> {
+impl Stream {
+    pub fn get_url(&self) -> Result<String, Box<dyn Error>> {
+        match &self.token_key {
+            Some(key) => {
+                let token = env::var(key).map_err(|e| format!("Fail to get env var: {key} {e}"))?;
+                Ok(format!("{}?feed_token={}", self.url, token))
+            }
+            None => Ok(self.url.clone()),
+        }
+    }
+}
+
+fn parse_config(content: &str) -> Result<Config, Box<dyn Error>> {
     Ok(toml::from_str(content).map_err(|e| format!("Fail to parse config file: {e}"))?)
 }
 
-pub fn load(path: &str) -> Result<Config, Box<dyn std::error::Error>> {
+pub fn load(path: &str) -> Result<Config, Box<dyn Error>> {
     let content = fs::read_to_string(path).map_err(|e| format!("Fail to load config file: {e}"))?;
     let config = parse_config(&content)?;
     Ok(config)
@@ -52,11 +61,10 @@ mod tests {
         let toml = r#"
             [[streams]]
             name = "blog"
-            host = "example.com"
         "#;
         let err = parse_config(toml).unwrap_err();
         assert!(err.to_string().contains("Fail to parse config file"));
-        assert!(err.to_string().contains("missing field `path`"));
+        assert!(err.to_string().contains("missing field `url`"));
     }
 
     #[test]

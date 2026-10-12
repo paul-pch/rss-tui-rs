@@ -4,7 +4,7 @@ mod flux;
 use config::Config;
 use std::error::Error;
 
-use crate::config::load;
+use crate::{config::load, flux::Feed};
 
 fn main() -> Result<(), Box<dyn Error>> {
     env_logger::init();
@@ -14,18 +14,12 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("No stream configured in config file.");
     }
 
+    let mut feeds: Vec<Feed> = Vec::new();
 
-    // Bloc HTTP
-    config.streams.iter().map(|s| )
-    // à partir de mes urls faire un appel http et en récupérer un xml (BORD)
-    // string -> url
-    // url to string (xml)
-
-    // Bloc flux
-
-    // convertir ce xml en flux (COEUR)
-    // prend un string, parse et renvoie Flux
-    // afficher le flux (COEUR)
+    for stream in &config.streams {
+        let xml = flux::fetch(stream)?;
+        feeds.push(flux::parse(&xml, stream.name.clone())?);
+    }
 
     Ok(())
 }

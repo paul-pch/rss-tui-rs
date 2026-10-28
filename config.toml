@@ -1,0 +1,11 @@
+# Chaque bloc [[streams]] ajoute un flux à la liste.
+#
+#   name      : nom affiché, et utilisé dans les messages d'erreur
+#   url       : URL complète du flux Atom/RSS
+#   token_key : (optionnel) NOM de la variable d'environnement qui contient
+#               le token (jamais le token lui-même)
+
+# Exemple de flux public, sans token :
+# [[streams]]
+# name = "rust-blog"
+# url = "https://blog.rust-lang.org/feed.xml"

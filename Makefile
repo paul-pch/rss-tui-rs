@@ -2,11 +2,11 @@
 
 .PHONY: all fmt fmt-check lint test help
 
-all: fmt-check lint test
+all: fmt lint test
 
 fmt:
 	@echo "-> Checking format.."
-	cargo fmt --check
+	cargo fmt
 
 fmt-check:
 	@echo "-> Checking format.."

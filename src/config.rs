@@ -21,7 +21,9 @@ impl Stream {
     pub fn get_url(&self) -> Result<String, Box<dyn Error>> {
         match &self.token_key {
             Some(key) => {
-                let token = env::var(key).map_err(|e| format!("Fail to get env var: {key} {e}"))?;
+                let token = env::var(key).map_err(|e| {
+                    format!("Stream '{}': failed to read env var {key}: {e}", self.name)
+                })?;
                 Ok(format!("{}?feed_token={}", self.url, token))
             }
             None => Ok(self.url.clone()),
@@ -30,11 +32,12 @@ impl Stream {
 }
 
 fn parse_config(content: &str) -> Result<Config, Box<dyn Error>> {
-    Ok(toml::from_str(content).map_err(|e| format!("Fail to parse config file: {e}"))?)
+    Ok(toml::from_str(content).map_err(|e| format!("Failed to parse config file: {e}"))?)
 }
 
 pub fn load(path: &str) -> Result<Config, Box<dyn Error>> {
-    let content = fs::read_to_string(path).map_err(|e| format!("Fail to load config file: {e}"))?;
+    let content =
+        fs::read_to_string(path).map_err(|e| format!("Failed to load config file: {e}"))?;
     let config = parse_config(&content)?;
     Ok(config)
 }
@@ -46,7 +49,7 @@ mod tests {
     #[test]
     fn test_should_fail_loading_missing_file() {
         let err = load("/nonexistent/config.toml").unwrap_err();
-        assert!(err.to_string().contains("Fail to load"));
+        assert!(err.to_string().contains("Failed to load"));
     }
 
     #[test]
@@ -63,7 +66,7 @@ mod tests {
             name = "blog"
         "#;
         let err = parse_config(toml).unwrap_err();
-        assert!(err.to_string().contains("Fail to parse config file"));
+        assert!(err.to_string().contains("Failed to parse config file"));
         assert!(err.to_string().contains("missing field `url`"));
     }
 
@@ -73,7 +76,7 @@ mod tests {
             titi = "tata"
         "#;
         let err = parse_config(toml).unwrap_err();
-        assert!(err.to_string().contains("Fail to parse config file"));
+        assert!(err.to_string().contains("Failed to parse config file"));
         assert!(err.to_string().contains("unknown field `titi`"));
     }
 }
